@@ -4,6 +4,7 @@ using System.Text;
 
 namespace RequestUnicorn
 {
+    //How the node.js function was modeling the return message
     public class ErrorReturn
     {
         public string Error { get; set; }

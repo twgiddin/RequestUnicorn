@@ -4,6 +4,7 @@ using System.Text;
 
 namespace RequestUnicorn
 {
+    //RideResponse class template based on the original json object that the node.js code was using
     public class RideResponse
     {
         public string RideId { get; set; }
